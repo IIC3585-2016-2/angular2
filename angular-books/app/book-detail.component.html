@@ -1,0 +1,7 @@
+<div *ngIf="book">
+    <h2> Detalles de {{book.title}} </h2>
+    <div>Autor: {{book.author}}</div>
+    <br>
+    <img [src]="book.image" />
+    <p>{{book.description}}</p>
+</div>
