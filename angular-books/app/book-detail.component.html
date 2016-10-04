@@ -4,4 +4,17 @@
     <br>
     <img [src]="book.image" />
     <p>{{book.description}}</p>
+
+    <div>
+      <label>Titulo: </label>
+      <input [(ngModel)]="book.title" placeholder="name"/>
+    </div>
+    <div>
+      <label>Autor: </label>
+      <input [(ngModel)]="book.author" placeholder="name"/>
+    </div>
+    <div>
+      <label>Descripción: </label>
+      <textarea [(ngModel)]="book.description" placeholder="name"></textarea>
+    </div>
 </div>

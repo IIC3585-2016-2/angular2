@@ -5,10 +5,12 @@ import { AppComponent }  from './app.component';
 import { BooksComponent } from './books.component';
 import { BookDetailComponent } from './book-detail.component';
 import { BookService } from './book.service';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   imports: [
     BrowserModule,
+    FormsModule
   ],
   declarations: [
     AppComponent,
